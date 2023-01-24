@@ -1,0 +1,481 @@
+@charset "utf-8";
+
+/* ===========
+   Base Styles
+   ===========
+*/
+
+html{
+	background-color: #FDFDFD;
+	font-family: 'Georgia', sans-serif;	
+	height: 100%;
+}
+
+body{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	padding: 0px;
+}
+
+
+header {
+	width: 100%;
+}
+
+footer{
+	display: block;
+	bottom: 0;
+	width:100%;
+	margin-top: 50px;
+	padding: 10px;
+	border-top: solid;
+	border-width: .5px;
+}
+
+article{
+	padding: 20px;
+}
+
+#custom{
+	float: right;
+}
+
+a#navicon{
+	display:none;
+}
+
+}
+.questions{
+	font-size: 1em;
+	border: solid;
+	border-width: .2px;
+	padding: 5px;
+	width: 100%;
+	
+}
+
+#q{
+	font-weight: bold;
+}
+
+#title{
+	color: #D2AFA9;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.intro{
+	display: block;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+}
+
+/* ===========
+   Search and Icon Styles
+   ===========
+*/
+.search{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#searchbar{
+	margin-right: 10px;
+	height: 5%;
+	width: auto;
+}
+
+#logo{
+	margin-right: 650px;
+}
+
+/* ===========
+   Sign In Styles
+   ===========
+*/
+ 
+ input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid;
+  border-width: .5px;
+}
+
+.container{
+	padding: 50px;
+	margin: auto;
+	width: 50%;
+}
+
+button {
+  background-color: #D2AFA9;
+  color: white;
+  width: 40%;
+  height: 10%;
+  padding: 10px;
+  margin: 5px;
+  border-width:.5px;
+  font-size:.55em;
+  
+} 
+
+button:hover {
+  background-color: #D5D5D5;
+}
+
+.field {
+  padding: 16px;
+}
+
+.pass a{
+	float: right;
+	color: #d2afa9
+}
+
+.pass a:hover{
+	color: #D5D5D5
+}
+
+#rem{
+	float: left;
+}
+
+/* ===========
+   Home Shop Styles
+   ===========
+*/
+
+#headings{
+	width:100%;
+	padding: 10px;
+}
+
+.product{
+	padding: 20px;
+	width: 200px;
+	height: 300px;
+	border: solid;
+	border-width: .5px;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+
+/* ===========
+   Product Page Styles
+   ===========
+*/
+
+.tpk {
+	padding: 50px;
+	height: 50%;
+}
+
+ 
+.info {
+	float: right;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.info > button{
+	width: 30%;
+	height: 5%;
+	font-size: .5em;
+	text-align: center;
+}
+
+.info > h2 {
+	font-size: 2em;
+}
+
+table{
+	border: solid;
+	border-collapse: collapse;
+}
+
+th{
+	border: solid;
+	font-size: 1em;
+	font-weight: bold;
+	background-color: #D5D5D5;
+}
+
+td{
+	font-size: .9em;
+	border: solid;
+	border-collapse: seperate;
+}
+
+th, td {
+  padding: 15px;
+}
+
+
+#form{
+	padding: 1px;
+}
+
+.space{
+	width: 100%;
+	padding: 20px;
+}
+
+#cover{
+	 margin-left: 40px;
+	 max-height:55%;
+}
+
+h2{
+	font-size: 1em;
+}
+
+h3{ 
+font-size: .9em;
+}
+
+
+/* Navigation Styles */
+
+nav.horizontal {
+   background-color: #FDFDFD;
+   min-height: 2em;
+   width: 100%;
+
+}
+
+nav.horizontal li {
+   color: #000000;
+   display: block;
+   float: left;
+   line-height: 2em;
+   text-transform: lowercase;
+   width: 16%;
+   text-align: center;
+   text-decoration: none;
+   
+}
+
+nav.horizontal li:not(:last-child) a {
+    border-right: solid;
+	border-color: #D5D5D5;
+	border-width: .5px;
+}
+
+nav.horizontal a {
+   display: block;
+   font-size: 1em;
+   text-decoration: none;
+}
+
+nav.horizontal a:visited, nav.horizontal a:link {
+   color: #D2AFA9;
+   text-decoration: none;
+}
+
+nav.horizontal a:hover, nav.horizontal a:active {
+   background-color: #D2AFA9;
+   color: white;
+   text-decoration: none;
+}
+
+
+/* Footer Styles */
+
+
+#logofoot{
+	display: flex;
+	float: left;
+	}
+	
+#foottext{
+	display:flex;
+	float: right;
+}
+	
+	
+section{
+width: 100%;
+display: block;}	
+
+/* Counter Styles */
+#count{
+	width:100%;
+	font-size: 1em;
+	color: #D2AFA9;
+}
+
+/* Gallery Styles */
+
+#events{
+	display: block;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	font-size: 1.2em;
+}
+
+#events img{
+	vertical-align: center;
+	width: 600px;
+}
+
+.clubs{
+	width:100%;
+	margin-top: 30px;
+}
+
+.clubs img{
+	width:400px;
+	float: right;
+}
+
+.clubs h2{
+	color: #D2AFA9;
+	font-size: 1.5em;
+}
+
+.gallery img{
+	height: 200px;
+	margin-top: 8px;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#heading{
+	color: #D2AFA9;
+	font-size: 1.5em;
+	width:100%;
+}
+
+/* Hours Table Styles */
+
+#hours table, td, tr{
+	border: none;
+}
+
+#hourstitle {
+	text-align: center;
+	font-weight: bold;
+}
+
+#storehours{
+	width: 100%;
+}
+
+
+/* =========================
+   Mobile Styles: 0 to 480px 
+   =========================
+*/
+
+@media only screen and (max-width: 480px) {
+	
+
+ .tpk img{
+	display: -webkit-flex; 
+	display: flex;
+	-webkit-flex-flow: row nowrap; 
+	flex-flow: row nowrap;
+	height: 400px;
+}
+
+nav.horizontal ul { 
+		display:none;
+	} 
+	
+a#navicon{
+		display:block;
+}
+a#navicon:hover+ul, nav.horizontal ul:hover { 
+	display: block;
+	font-size: .6em;
+	width:70%;
+	padding:0px;
+}
+
+#searchbar{
+	display: none;
+}
+
+#logo{
+	display: block;
+}
+
+#icon{
+	display: block;
+}
+
+article {
+	float: left;
+	margin-right: 5%;
+}
+
+.gallery img{
+	height: 100px;
+}
+
+
+#events img{
+	display: none;
+}
+	
+.clubs h2{
+	font-size: 1.3em;
+}
+
+.clubs img{
+	display: none;
+}
+
+iframe{
+	max-width: 300px;
+	height:auto;
+}
+
+#last{
+	display: none;
+}
+}
+/* ============================================
+   Tablet and Desktop Styles: 481px and greater 
+   ============================================
+*/
+
+@media only screen and (min-width: 481px) {
+	
+
+	nav.horizontal ul { 
+		display: -webkit-flex; 
+		display: flex;
+		-webkit-flex-flow: row nowrap; 
+		flex-flow: row nowrap;
+	} 
+
+#lasttab{
+	display: none;
+}
+
+iframe{
+	padding: 10px;
+	max-width: 400px;
+	height:300px;
+}
+
+}
